@@ -6,8 +6,8 @@ from supabase import create_client
 router = APIRouter()
 
 # 🔐 Supabase config
-SUPABASE_URL = "https://lamofoaiznmraetwgbfw.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxhbW9mb2Fpem5tcmFldHdnYmZ3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjY4MjA5MTQsImV4cCI6MjA4MjM5NjkxNH0.cZSvm-PajM97AlmmmxQtkk5WntXHeIUoGiT5PU6awWk"
+SUPABASE_URL = "your_supabase_url"
+SUPABASE_KEY = "your_supabase_key"
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 RADIUS = 100  # meters
