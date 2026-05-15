@@ -85,7 +85,7 @@ def process_sensor_data(data):
 
                 email_to = data.get("emergency_email")
                 if not email_to:
-                    email_to = "sjaanu2005@gmail.com"
+                    email_to = "your_email/fetch email automatically"
 
                 response = requests.post(
                     EMAIL_NOTIFY,
